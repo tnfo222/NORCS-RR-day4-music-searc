@@ -42,7 +42,7 @@ function GalleryItem(props){
                 <h4>{props.item.primaryGenreName}</h4>
                 <h4>{props.item.releaseDate}</h4>
                 <p>
-                    <img src={props.item.artworkUrl100} width="100px" />
+                    <img src={props.item.artworkUrl100} alt="" width="100px" />
                     <br />
                     <a href={props.item.trackViewUrl} target="_blank">
                         <button>Preview Song</button>
