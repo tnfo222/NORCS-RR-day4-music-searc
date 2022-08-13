@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 function GalleryItem(props){
     let [view, setView] = useState(false)
+    
     //set style
     const simpleStyle = {
         'width': '90%',
@@ -54,7 +55,7 @@ function GalleryItem(props){
             </div>
         )
     }
-    
+
     return (
         <div onClick={() => setView(!view)} style={{'display': 'inline-block'}}>
             <p>One Gallery Item</p>
